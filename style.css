@@ -49,11 +49,18 @@ main{
     font-weight: 500;
 }
 
-.tittle h1{
+.tittle a{
+    display: inline-block;
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
     margin-top: 16px;
     margin-bottom: 17px;
     font-size: 23.9px;
     font-weight: 800;
+}
+
+.tittle a:hover{
+    color: hsl(47, 88%, 63%);
 }
 
 .tittle p{
